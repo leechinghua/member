@@ -2,7 +2,7 @@
   "name": "member",
   "version": "1.0.0",
   "main": "index.js",
-  "type" :"module",
+  "type": "module",
   "scripts": {
     "dev": "nodemon --env-file=dev.env index.js",
     "start": "node --env-file=dev.env index.js",
@@ -11,5 +11,8 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
 }
